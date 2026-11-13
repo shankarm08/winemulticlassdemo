@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wine Multiclass FastAPI + Docker (VS Code)
 
 This is the local inference/deployment project for the multiclass model trained and tracked in Databricks MLflow.
@@ -140,3 +141,6 @@ docker rm wine-api
 ## End-to-end flow
 
 Databricks training -> MLflow experiment/model logging -> export `model.zip` to Unity Catalog Volume -> download `model.zip` -> FastAPI inference -> Docker container.
+=======
+# winemulticlassdemo
+>>>>>>> 97011de456e4c33bbb3d8ec2c8406f741515f9ad
